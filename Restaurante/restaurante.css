@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #fff;
+    color: #5c0000;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #5c0000;
+  }
+  
+  .icons span {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .restaurant-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .image-container {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-container {
+    flex: 1;
+    min-width: 300px;
+    background-color: #111;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .text-container h4 {
+    color: #c38d8d;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+  }
+  
+  .text-container h1 {
+    color: #fff;
+    margin-top: 0;
+  }
+  
+  .text-container p {
+    margin: 1rem 0;
+    line-height: 1.6;
+  }
+  
+  .btn {
+    display: inline-block;
+    width: fit-content; 
+    padding: 0.4rem 1.2rem;
+    font-size: 0.85rem;
+    background-color: #5c0000;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  
+  
+  .btn:hover {
+    background-color: #7a0000;
+  }
+  
+  .icons img {
+    height: 24px;        /* Adjust size as needed */
+    width: 24px;
+    margin-left: 1rem;   /* Space between icons */
+    cursor: pointer;     /* Looks clickable */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .restaurant-section {
+      flex-direction: column;
+    }
+  }
+  
