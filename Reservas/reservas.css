@@ -1,0 +1,162 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  color: white;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #5c0000;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.iconos img {
+  height: 24px;
+  width: 24px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  height: 60vh;
+  background: url('fotoreservas.jpeg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  text-align: center;
+  max-width: 700px;
+  border-radius: 8px;
+}
+
+.overlay h4 {
+  color: #c39797;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.overlay p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Reservas */
+.reservas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;       
+  margin: 0;          
+}
+
+.box {
+  flex: 0 0 50vw;        
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+.degustaciones {
+  background-color: #4c0a0a;
+}
+
+.almuerzo {
+  background-color: #000;
+}
+
+.res-icon {
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.box h5 {
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: #c38d8d;
+  margin: 0;
+}
+
+.box h2 {
+  font-weight: normal;
+  margin: 0.5rem 0 1rem;
+}
+
+.box p {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Botón */
+.btn {
+  background-color: #5c0000;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #7a0000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .box {
+    flex: 1 1 100%;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+}
