@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #fff;
+    color: #5c0000;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #5c0000;
+  }
+  
+  .icons img {
+    height: 24px;
+    width: 24px;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+
+  .hero {
+    position: relative;
+    height: 60vh;
+    background: url('fotoreservas.jpeg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background: rgba(2, 2, 2, 0);
+    padding: 2rem;
+    text-align: center;
+    max-width: 700px;
+  }
+  
+  .overlay h4 {
+    color: #a95c5cc5;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+  
+  .overlay h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+  }
+  
+  .overlay p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .reservas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;  
+    margin: 0 auto;      
+  }
+  
+  
+  .box {
+    flex: 1 1 50%;
+    padding: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+  }  
+  
+  .degustaciones {
+    background-color: #4c0a0a;
+  }
+  
+  .almuerzo {
+    background-color: #000;
+  }
+  
+  .res-icon {
+    height: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .box h5 {
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #c38d8d;
+    margin: 0;
+  }
+  
+  .box h2 {
+    font-weight: normal;
+    margin: 0.5rem 0 1rem 0;
+  }
+  
+  .box p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn {
+    background-color: #5c0000;
+    color: white;
+    padding: 0.4rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #7a0000;
+  }
+
+  @media (max-width: 768px) {
+    .box {
+      flex: 1 1 100%;
+    }
+  }
+  
+  
