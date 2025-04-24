@@ -39,6 +39,7 @@
     color: #4A0606;
     font-weight: bold;
     font-size: 1.2rem;
+    cursor: pointer;
   }
   
   .iconos img {
@@ -109,5 +110,6 @@
     border-radius: 4px;
     font-size: 24px;
     z-index: 1;
+    cursor: pointer;
   }
   

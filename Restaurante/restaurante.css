@@ -28,6 +28,7 @@ body {
   .nav-links a {
     text-decoration: none;
     color: #5c0000;
+    cursor: pointer;
   }
   
   .icons span {
@@ -93,8 +94,8 @@ body {
     border-radius: 6px;
     transition: background-color 0.3s ease;
     margin-top: 1rem;
+    cursor:pointer;
   }
-  
   
   
   .btn:hover {
