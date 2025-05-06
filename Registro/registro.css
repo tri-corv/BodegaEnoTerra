@@ -38,6 +38,7 @@ body {
     color: #5b0d0d;
     font-weight: bold;
     font-size: 1.1rem;
+    cursor: pointer;
   }
   
   .iconos img {

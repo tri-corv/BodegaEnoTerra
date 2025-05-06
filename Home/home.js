@@ -14,3 +14,4 @@ document.getElementById('icon-carrito').onclick = () => window.location.href = '
 document.getElementById('btn-enoturismo').onclick = () => window.location.href = '../Enoturismo/enoturismo.html';
 document.getElementById('btn-vinos').onclick = () => window.location.href = '../Vinos/vinos.html';
 document.getElementById('btn-experiencias').onclick = () => window.location.href = '../Restaurante/restaurante.html';
+
